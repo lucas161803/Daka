@@ -1,4 +1,7 @@
+using Daka.Application;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddApplication();
 
 // Add services to the container.
 
@@ -18,7 +21,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
+// app.UseAuthorization();
 
 app.MapControllers();
 

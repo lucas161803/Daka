@@ -18,7 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Daka.WebApi\Daka.WebApi.csproj" />
+        <ProjectReference Include="..\Daka.WebApi\Daka.WebApi.csproj" />
     </ItemGroup>
 
 </Project>

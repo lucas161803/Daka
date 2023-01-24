@@ -5,10 +5,10 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <UserSecretsId>e4e182e6-a667-485c-b9df-c56ae94ba212</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="MediatR" Version="11.1.0" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
     </ItemGroup>

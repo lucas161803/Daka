@@ -1,0 +1,8 @@
+### Register
+
+POST {{host}}/auth/register
+Content-Type: application/json
+
+{
+  "name": "user"
+}
